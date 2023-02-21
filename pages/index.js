@@ -1,21 +1,17 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import RsvpFormToggler from '@components/RsvpFormToggler'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>RSVP за сватбата на Иво и Ради</title>
+        <link rel="icon" href="/favicon.jpg" />
       </Head>
-
-      <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+        {/* <Header title="This will be our wedding app" /> */}
+      <RsvpFormToggler />
 
       <Footer />
     </div>
