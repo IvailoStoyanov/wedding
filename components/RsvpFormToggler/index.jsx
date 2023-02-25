@@ -9,13 +9,14 @@ const RsvpFormToggler = () => {
   return (
     <div>
       <p>Ще дойдете ли?</p>
-      <button className={`${styles.button} ${guestIsComing && styles.active}`} onClick={() => setGuestIsComing(true)}>Да, ще пия с Вас.</button>
-      <button className={`${styles.button} ${!guestIsComing && styles.active}`} onClick={() => setGuestIsComing(false)}>Не, ще пия в нас.</button>
+      <button className={`${styles.button} ${guestIsComing ? styles.active : null}`} onClick={() => setGuestIsComing(true)}>Да, ще пия с Вас.</button>
+      <button className={`${styles.button} ${!guestIsComing ? styles.active : null}`} onClick={() => setGuestIsComing(false)}>Не, ще пия в нас.</button>
       {
         guestIsComing ? 
         <RsvpYesForm />: 
         <RsvpNoForm />
       }
+      <input type="hidden" name="NotComing" value="NotComing" />
     </div>
   );
 };
