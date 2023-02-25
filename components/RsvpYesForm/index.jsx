@@ -10,13 +10,14 @@ const RsvpYesForm = () => {
 
   return (
     <form
-      name="Coming"
-      action="/successYes"
+      name="accepted"
+      action="/accepted"
       method="POST"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
       onSubmit="submit"
     >
+      <input type="hidden" name="form-name" value="accepted" />
       <div>
         <NamesComponent guestsArray={guestsArray} setGuestsArray={setGuestsArray} />
         <FoodMenu guestsArray={guestsArray} />
