@@ -4,12 +4,11 @@ import styles from './index.module.scss';
 const RsvpNoForm = () => {
     return (
         <form
-            name="Declined"
-            action="/declined"
-            method="POST"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            onSubmit="submit"
+        name="declined"
+        action="/declined"
+        method="POST"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
         >
             <input type="hidden" name="form-name" value="declined" />
             <div className={styles.inputWrapper}>
