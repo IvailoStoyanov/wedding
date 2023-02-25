@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './index.module.scss';
-import RsvpNoForm from '@components/RsvpNoForm';
-import RsvpYesForm from '@components/RsvpYesForm';
+import RsvpNoForm from '../RsvpNoForm';
+import RsvpYesForm from '../RsvpYesForm';
 
 const RsvpFormToggler = () => {
   const [guestIsComing, setGuestIsComing] = useState(true);

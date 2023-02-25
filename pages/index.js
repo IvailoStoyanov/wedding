@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-import RsvpFormToggler from '@components/RsvpFormToggler'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import RsvpFormToggler from '../components/RsvpFormToggler'
 
 export default function Home() {
   return (
