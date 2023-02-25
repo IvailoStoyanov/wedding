@@ -10,7 +10,7 @@ const RsvpYesForm = () => {
 
   return (
     <form
-      name="contact"
+      name="Coming"
       action="/successYes"
       method="POST"
       data-netlify="true"

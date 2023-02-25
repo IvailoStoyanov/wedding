@@ -4,7 +4,7 @@ import styles from './index.module.scss';
 const RsvpNoForm = () => {
   return (
     <form
-    name="contact"
+    name="NOT coming"
     action="/successNo"
     method="POST"
     data-netlify="true"
