@@ -15,6 +15,7 @@ const RsvpYesForm = () => {
       method="POST"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
+      onSubmit="submit"
     >
       <div>
         <NamesComponent guestsArray={guestsArray} setGuestsArray={setGuestsArray} />

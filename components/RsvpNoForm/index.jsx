@@ -9,7 +9,9 @@ const RsvpNoForm = () => {
     method="POST"
     data-netlify="true"
     data-netlify-honeypot="bot-field"
+    onSubmit="submit"
     >
+    <input type="hidden" name="form-name" value="NotComing" />
     <div>
       <input type="hidden" name="form-name" value="contact" />
       <div className={styles.inputWrapper}>
@@ -19,8 +21,8 @@ const RsvpNoForm = () => {
     </div>
     <div>
       <div className={styles.inputWrapper}>
-        <label htmlFor="story">Съобщение</label>
-        <textarea name="story" required></textarea>
+        <label htmlFor="message">Съобщение</label>
+        <textarea name="message" required></textarea>
       </div>
       <input
         className={styles.submitButton}
