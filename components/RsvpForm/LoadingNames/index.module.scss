@@ -9,9 +9,16 @@
   color: #2C4F32;
   cursor: pointer;
   border-radius: 2px;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background: #2C4F32;
+    color: white;
+  }
 
   &:disabled {
     opacity: 0.3;
+    cursor: auto;
   }
 }
 
