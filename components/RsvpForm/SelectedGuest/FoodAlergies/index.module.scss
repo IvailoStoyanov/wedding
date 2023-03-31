@@ -1,0 +1,24 @@
+
+.alergiesTitle {
+  margin: 0 0 10px 0;
+}
+
+.answersWrapper {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.alergiesAnswer {
+  padding-right: 10px;
+}
+
+.alergiesTextFieldWrapper {
+  display: flex;
+  flex-flow: column;
+
+  textarea {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 5px;
+  }
+}
