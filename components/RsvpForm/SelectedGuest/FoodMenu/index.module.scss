@@ -1,3 +1,5 @@
+@import '../../../../styles/variables.scss';
+
 .fieldset {
   margin-bottom: 20px;
   padding-bottom: 15px;
@@ -10,6 +12,10 @@
 
 .optionsWrapper {
   display: flex;
+
+  @media (min-width:$media-s-tablet) {
+    justify-content: space-around;
+  }
 }
 
 .inputWrapper {

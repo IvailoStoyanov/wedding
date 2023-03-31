@@ -27,7 +27,7 @@
   padding-top: 20px;
 
   @media (min-width:$media-s-tablet) {
-    margin: 0 auto;
+    margin: 30px auto 0 auto;
     width: 300px;
   }
 }
@@ -43,6 +43,7 @@
   input {
     margin: 0;
   }
+
 }
 
 .nameLoader {
@@ -53,7 +54,7 @@
   position: relative;
 
   @media (min-width:$media-s-tablet) {
-    min-width: 100%;
+    min-width: 93%;
   }
 }
 
