@@ -45,6 +45,7 @@ input {
 
 h2 {
   font-size: 45px;
+  line-height: 40px;
   
   @media (min-width:$media-s-tablet) {
     font-size: 55px;
@@ -60,7 +61,7 @@ input, label {
 }
 
 p {
-  line-height: 30px;
+  line-height: 28px;
 }
 
 a {

@@ -15,7 +15,7 @@ const RsvpForm = () => {
   return guestsGroupContext.length ? <SelectedGuest /> : (
     <div className={styles.formWrapper}>
       <h2>Присъствие</h2>
-      <p>Моля попълнете нужната информация.</p>
+      <p>Моля, попълнете нужната информация.</p>
         <NamesComponent />
         {isFetching ? <LoadingNames /> : <NamesList />}
     </div>

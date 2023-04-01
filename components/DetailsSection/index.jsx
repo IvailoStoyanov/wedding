@@ -18,7 +18,7 @@ const DetailsSection = () => {
         {!isMobile && <img src="/branches/desktop/dresscodeRight.svg" alt="Tree branch" className={styles.rightLeaf} />}
       </div>
 
-      <h2>Локация и транспорт</h2>
+      <h2 className={styles.locationAndTransportHeadline}>Локация <br />и транспорт</h2>
       <div className={`${styles.detailItem} ${styles.transportAndLocation}`}>
         <a target="_blank" href='https://goo.gl/maps/h3HdEUdbdGjwmQrT9'>
           <img src='/pasarel.jpg' alt='снимка от дрон на Пасарел Лейк Клуб' />
@@ -32,7 +32,7 @@ const DetailsSection = () => {
             <li>Yellow Taxi</li>
             <li>Drink & Drive</li>
             <li>
-              Автобус №3 (0:10 - 23:15 на всеки 30 мин.)
+              Автобус №3 <br/>(0:10 - 23:15 на всеки 30 мин.)
             </li>
           </ul>
         </div>
@@ -45,7 +45,7 @@ const DetailsSection = () => {
           <div className={`${styles.detailItem} ${styles.accommodation}`}>
             <p>
               Възможност за настаняване има само <b>в София. </b>
-              При необходимост, моля свържете се с нас за съдействие и запазване на нощувка -
+              При необходимост, моля, свържете се с нас за съдействие и запазване на нощувка -
               в рамките на срока за отговор на сватбената покана.
             </p>
           </div>

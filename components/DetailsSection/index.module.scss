@@ -9,7 +9,7 @@
         text-align: center;
         margin: 50px auto 0 auto;
         text-transform: lowercase;
-        max-width: 300px;
+        // max-width: 300px;
     }
 }
 
@@ -92,11 +92,18 @@
 .transportAndLocation {
     @media (min-width:$media-s-tablet) {
         display: flex;
-
+        padding: 40px 30px 0 30px;
+        
         img {
-            margin: 0;
+            margin: 8px 0 0 0;
             transition: all ease-in 0.2s;
         }
+    }
+}
+
+.locationAndTransportHeadline {
+    @media (min-width:$media-s-tablet) {
+        padding-top: 50px;
     }
 }
 
@@ -140,7 +147,7 @@
         position: relative;
         display: flex;
         justify-content: center;
-        padding: 70px 0;
+        padding: 120px 0;
     }
 }
 

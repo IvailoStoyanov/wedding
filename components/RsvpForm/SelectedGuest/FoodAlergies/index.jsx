@@ -68,7 +68,7 @@ const FoodAlergies = () => {
       </div>
       {hasAlergies &&
         <div className={styles.alergiesTextFieldWrapper}>
-          <label htmlFor="story">Моля попълнете ги тук:</label>
+          <label htmlFor="story">Моля, попълнете ги тук:</label>
           <textarea name="story" required onChange={debounce(e => handleAlergiesChange(e))} defaultValue={hasGuestAlergies()}></textarea>
         </div>}
     </div>

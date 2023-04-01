@@ -1,16 +1,19 @@
 @import '../../styles/variables.scss';
 
 .timetableWrapper {
-
     @media (min-width: $media-s-tablet) {
         margin: 90px 0 50px 0;
     }
 }
 
 .sectionTitle {
-    margin: 50px 0 20px 0;
+    margin: 0 0 20px 0;
     text-align: center;
     text-transform: lowercase;
+
+    @media (min-width: $media-s-tablet) {
+        margin: 0 0 40px 0;
+    }
 }
 
 .list {
