@@ -44,7 +44,11 @@ input {
 }
 
 h2 {
-  font-size: 55px;
+  font-size: 45px;
+  
+  @media (min-width:$media-s-tablet) {
+    font-size: 55px;
+  }
 }
 
 h3 {
