@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>RSVP за сватбата на Иво и Ради</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0" />
-        <link rel="icon" href="/favicon.jpg" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Header title="Ивайло Стоянов и Радина Рашкова RSVP покана" />
       <Timetable />
