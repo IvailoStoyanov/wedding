@@ -61,6 +61,8 @@
 }
 
 .timestampInfo {
+    width: 100%;
+
     @media (min-width: $media-s-tablet) {
         margin: 0;
         line-height: 23px;
